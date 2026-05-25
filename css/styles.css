@@ -10,7 +10,10 @@ html {
 
 body {
     font-family: Inconsolata,sans-serif; 
-    background-color: rgb(55, 52, 61);
+    background-color: rgb(191, 14, 43);
+   /* width:100%; */
+   /* height: 80%;*/
+   /* margin:0; */
     /* padding-top: 80px */
 }
 
@@ -25,7 +28,7 @@ body {
 .cabecera {
    background-color: rgb(202, 117, 13);
     height: 10%; 
-    padding-top:10px ;
+    padding-top:5px ;
    padding-bottom: 15px;
     padding-right: 10px;
     text-align: right;
@@ -33,9 +36,8 @@ body {
 
 .area-cajas {
     background-color: aquamarine;
-    align-items: center;
-
-
+    width:100%;
+    /*align-items: center;*/
 }
 
 .contenedor {
@@ -82,7 +84,7 @@ button {
 .contenedor-footer {
  background: #6312e5;
   color: #fff7fb;
-  width: 100%;
+  /*width: 100%;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -96,6 +98,30 @@ button {
 .nav-ul li {
     list-style-type: none;
 }
+
+/* CONTACTO.    */
+
+.etiqueta {
+display: flex;
+flex-direction: row;
+padding-top: 10px;
+padding-bottom: 30px;
+/*width: 70%;
+height: 100%;*/
+flex-wrap: wrap;
+}
+
+.contenedor-main {
+     display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+    flex:1;
+}
+
+
 
 
 
