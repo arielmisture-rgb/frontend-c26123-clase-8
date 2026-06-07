@@ -123,9 +123,8 @@ flex-direction: column;
 }
 
 
-.contenedor-contacto {
+/*.contenedor-contacto {
    /*flex:1;*/
-}
 
 .contenedor-footer-contacto {
 display:flex;
