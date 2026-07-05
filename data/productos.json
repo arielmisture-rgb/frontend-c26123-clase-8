@@ -1,0 +1,9 @@
+ [
+{"id":"1","nombre" :"Caja de te","img" :"img/caja de te.jpeg", "precio": 500},
+{"id":"2","nombre" :"Girasol","img" :"img/girasol.jpeg", "precio": 200},
+{"id":"3","nombre" :"Llavero personalizado","img" :"img/llavero.jpeg", "precio": 300},
+{"id":"4","nombre" :"Posa vaso","img" :"img/posa vaso.jpeg", "precio": 400},
+{"id":"5","nombre" :"Reloj","img" :"img/reloj.jpeg", "precio": 200},
+{"id":"5","nombre" :"Rosa con nombre","img" :"img/rosa.jpeg", "precio": 50}
+
+]

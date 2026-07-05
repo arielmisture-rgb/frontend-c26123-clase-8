@@ -1,0 +1,118 @@
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+.logo-header {
+    width: 60px;
+    height: 60px;}
+
+body {
+    font-family: "Inconsolata",sans-serif;
+    font-size: 1.6rem;
+    background: #e2cfb3;
+    color:rgb(74, 84, 84);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;   /*hace que el body ocupe toda la pantalla*/
+
+}
+
+main {
+    width: 80%;
+    margin:auto;  /*funciona solo cuando hay un width*/
+    padding-bottom: 2rem;
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-lista li img{
+width: 50x;
+height: 50px;
+
+}
+footer h3 {
+    font-size: 80%;
+}
+
+.btn {
+    border:none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding:1rem;
+    border-radius: 1rem;
+    width: 240px;
+
+}
+
+header, footer {
+    background-color: gray;
+    color:#373030;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+
+}
+.header-nav ul li {
+    list-style: none;
+    display:inline-block;
+    padding:1rem;   /*distancia entre Lis*/
+}
+
+
+nav ul {
+text-decoration: none;} 
+
+.footer-lista li {
+    list-style: none;
+}
+
+/*    ------------------- HOME ------------------------ */
+.contenedor-tarjetas {
+    display:flex;
+    flex-wrap: wrap;   /*donde no hay mas espacio la tarjeta se va para abajo*/
+}
+
+
+.tarjeta-producto {
+    margin: 1rem; /* espacio entre tarjetas*/
+    background-color: rgb(107, 114, 119); /*color de fondo de la tarjeta*/
+    color: #302626;  /*color del texto*/
+    width: 31rem; /*ancho de la tarjeta*/
+
+    border-radius: 1rem; 
+    overflow: hidden;  /*adapta la imagen al contenedor*/
+    padding: 2rem; /*espacio entre el dato*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+
+.tarjeta-produto img {
+    width: 100%; /*toma el 100% de la caja*/
+    
+}
+
+
+h3,p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
