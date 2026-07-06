@@ -52,7 +52,7 @@ footer h3 {
 }
 
 .btn:hover {
-    color:yellowgreen;
+    color:rgb(106, 50, 184);
 }
 
 header, footer {
@@ -79,7 +79,7 @@ color: black;
 } 
 
  nav ul li a:hover {
-    color:yellow;
+    color:rgb(204, 216, 115);
 }
 
 @media (max-width: 550px) {
