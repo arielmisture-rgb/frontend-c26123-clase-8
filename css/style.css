@@ -69,8 +69,24 @@ header, footer {
 }
 
 
-nav ul {
-text-decoration: none;} 
+nav ul li a {
+text-decoration: none;
+color: black;
+} 
+
+nav ul li a:hover {
+    color:yellow;
+}
+
+@media (max-width: 550px) {
+    header, .header-nav {
+        flex-direction: column;
+    }
+    .header-nav { 
+        margin-top: 15px;
+        align-items: center;
+    }
+}
 
 .footer-lista li {
     list-style: none;
