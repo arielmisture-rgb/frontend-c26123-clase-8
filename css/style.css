@@ -51,6 +51,10 @@ footer h3 {
 
 }
 
+.btn:hover {
+    color:yellowgreen;
+}
+
 header, footer {
     background-color: gray;
     color:#373030;
@@ -74,7 +78,7 @@ text-decoration: none;
 color: black;
 } 
 
-nav ul li a:hover {
+ nav ul li a:hover {
     color:yellow;
 }
 
